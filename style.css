@@ -1,0 +1,23 @@
+.octocat  img {
+    display: flex;
+    height: 500x;
+    width: 400px;
+    border: 1px solid black;
+}
+.authors  img {
+    display: flex;
+    height: 50px;
+    width: 40px;
+    border: none;
+    
+}
+.octodex {
+    display: flex ;
+    justify-content: center;
+}
+li {
+    list-style: none;
+}
+span.image-number::before {
+    content: "#"
+}
