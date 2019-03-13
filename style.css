@@ -1,23 +1,41 @@
 .octocat  img {
-    display: flex;
+
     height: 500x;
     width: 400px;
     border: 1px solid black;
+    margin-right: 10px;
 }
 .authors  img {
-    display: flex;
-    height: 50px;
-    width: 40px;
+    display: inline-block;
+    height: 30px;
+    width: 20px;
     border: none;
     
 }
 .octodex {
-    display: flex ;
+    display: flex;
     justify-content: center;
+    align-content: center;
 }
 li {
     list-style: none;
 }
 span.image-number::before {
     content: "#"
+}
+.authors > img {
+    display: flex;
+    flex-direction: row;
+    
+}
+.image-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #cacaca
+
+}
+.image-caption {
+    display: inline-block;
+
 }
